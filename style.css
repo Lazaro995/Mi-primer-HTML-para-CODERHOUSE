@@ -3,7 +3,7 @@ body{
 }
 .logo-imagen{
     height: 200px;
-    animation: logo_efecto 10s ease-in-out 0s infinite normal forwards;
+    animation: logo_efecto 5s ease-in-out 0s infinite normal forwards;
 }
 .nav-enlace{
     display: inline-block;
@@ -106,14 +106,7 @@ nav{
 [class*-"cuadro-diplomas"]{
     width: 100%;
 }
-@media only screen and (max-width: 800px) {
-    .cuadro-diplomas{width: 90%;}
-    .grid-container{
-        display: grid;
-        grid-template-areas: initial;
-        grid-gap: 10px;
-        background-color: rgb(7, 7, 94);
-        padding: 10px;
+
 }
 
 .cuadro-diplomas {
@@ -173,4 +166,11 @@ nav{
       transform: translateX(0px);
     }
   }
-  
+  @media only screen and (max-width: 800px) {
+    .cuadro-diplomas{width: 90%;}
+    .grid-container{
+        display: grid;
+        grid-template-areas: initial;
+        grid-gap: 10px;
+        background-color: rgb(7, 7, 94);
+        padding: 10px;}
