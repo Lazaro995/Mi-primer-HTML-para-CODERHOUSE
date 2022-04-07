@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+}
+.logo-imagen{
+    height: 200px;
+    animation: logo_efecto 10s ease-in-out 0s infinite normal forwards;
+}
+.nav-enlace{
+    display: inline-block;
+    background: black;
+    color: whitesmoke;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+}
+.nav-enlace {
+    color: inherit;
+    text-decoration: none;
+  } 
+.nav-enlace {
+    background:
+      linear-gradient(
+        to right,
+        rgb(61, 62, 105),
+        rgb(32, 87, 189)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+  
+  .nav-enlace:hover {
+    background-size: 0 3px, 100% 3px;
+  }
+nav{
+    background-color: black
+}
+.encabezado{
+    background-color: black;
+    text-align: center;
+}
+#inlineFrameExample{background-color: black;}
+.footer-section{
+
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 30px;
+    overflow: hidden;
+}
+
+.diplomas{
+    color: whitesmoke;
+}
+.cuadro-diplomas{
+    color: whitesmoke;
+    background-color: rgb(11, 45, 77);
+    width: 1000px;
+    border: 10px solid rgb(38, 80, 156) ;
+    padding: 20px;
+    margin: 5px;
+}
+.item2{
+    grid-area: myarea;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: ". myarea myarea  . ." ;
+    grid-gap: 10px;
+    background-color: rgb(7, 7, 94);
+    padding: 10px;
+
+}
+.grid-container > div {
+    background-color: rgb(27, 26, 66);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.footer-section-1{
+
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    overflow: hidden;
+}
+
+.footer-section:hover{
+    background-color:rgb(10, 28, 65);
+}
+.footer-section-1:hover{
+    background-color:rgb(10, 28, 65);
+}
+[classs*="item-"]{
+    width: 100%;
+}
+[class*-"cuadro-diplomas"]{
+    width: 100%;
+}
+@media only screen and (max-width: 800px) {
+    .cuadro-diplomas{width: 90%;}
+    .grid-container{
+        display: grid;
+        grid-template-areas: initial;
+        grid-gap: 10px;
+        background-color: rgb(7, 7, 94);
+        padding: 10px;
+}
+
+.cuadro-diplomas {
+    background:  linear-gradient(to top, rgb(41, 17, 85), rgb(7, 35, 112))
+ }
+ 
+ .diplomas{
+    background: linear-gradient(90deg, rgb(22, 17, 85), rgb(7, 36, 73))
+ }
+ @keyframes logo_efecto {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 0.2;
+      transform: translateX(-48px);
+    }
+  
+    24% {
+      opacity: 0.3;
+    }
+  
+    40% {
+      animation-timing-function: ease-in;
+      transform: translateX(-26px);
+      opacity: 0.5;
+    }
+  
+    65% {
+      animation-timing-function: ease-in;
+      transform: translateX(-13px);
+      opacity: 0.7;
+    }
+  
+    82% {
+      animation-timing-function: ease-in;
+      transform: translateX(-6.5px);
+      opacity: 0.85;
+    }
+  
+    93% {
+      animation-timing-function: ease-in;
+      transform: translateX(-4px);
+      opacity: 1;
+    }
+  
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+      animation-timing-function: ease-out;
+      transform: translateX(0px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  

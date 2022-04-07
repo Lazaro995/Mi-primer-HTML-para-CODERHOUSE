@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer html></title>
+</head>
+
+<body>
+    <section>
+        <h1>CONTACTO</h1>
+        <form action="#" method="POST" enctype="application/x-www-form-urlencoded">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+            </div>
+            <div>
+                <label for="apellido">apellido</label>
+                <input type="text" id="apellido">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email">
+            </div>
+            <div>
+                <label for="Razón">Razon</label>
+                <select name="contractor">
+                    <option value="" hidden >Selecciona una opcion</option>
+                    <option value="Contratista">Contratista</option>
+                    <option value="proveedor">Proveedor</option>
+                    <option value="cliente">Cliente</option>
+            </select>
+            </div>
+            <div>
+                <label for="mensaje">Deja tu mensaje</label>
+                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar formulario"/>
+                <input type="reset" value="Limpiar formulario"/>
+
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
