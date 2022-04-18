@@ -121,13 +121,13 @@ p{
 
 .formulario input:focus{
   outline:0;
-  border: 1px solid #97d848;
+  border: 1px solid #0fa894;
 }
 
 
 .formulario textarea:focus{
   outline:0;
-  border: 1px solid #97d848;
+  border: 1px solid #1256a3;
 }
 
 

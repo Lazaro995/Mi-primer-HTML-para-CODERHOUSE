@@ -1,0 +1,49 @@
+body {
+  color: black; }
+
+h1 {
+  color: whitesmoke; }
+
+form {
+  color: whitesmoke; }
+
+nav {
+  background-color: black; }
+
+.logo-imagen {
+  height: 200px;
+  animation: logo_efecto 5s ease-in-out 0s infinite normal forwards; }
+
+.nav-enlace {
+  display: inline-block;
+  color: whitesmoke;
+  padding: 10px 3px;
+  text-decoration: none; }
+
+.nav-enlace {
+  text-decoration: none;
+  text-align: center; }
+
+.nav-enlace {
+  background: linear-gradient(to right, #3d3e69, #2057bd), linear-gradient(to right, red, #ff00b4, #0064c8);
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms; }
+
+.nav-enlace:hover {
+  background-size: 0 3px, 100% 3px; }
+
+.encabezado {
+  background-color: black;
+  text-align: center; }
+
+@media only screen and (max-width: 800px) {
+  .cuadro-diplomas {
+    width: 90%; }
+  .grid-container {
+    display: grid;
+    grid-template-areas: initial;
+    grid-gap: 10px;
+    background-color: #07075e;
+    padding: 10px; } }
