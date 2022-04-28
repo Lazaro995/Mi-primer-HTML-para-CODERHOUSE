@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/main.scss css/propietarios.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "build-css": "node-sass --include-path scss scss/_main.scss css/propietarios.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build-css2": "node-sass --include-path scss scss/_style.scss css/index.css",
+    "watch-css2": "nodemon -e scss -x \"npm run build-css2\""
   },
   "repository": {
     "type": "git",

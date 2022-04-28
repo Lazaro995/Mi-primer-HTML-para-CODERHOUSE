@@ -1,0 +1,115 @@
+$color-body: black;
+$color-titulo: whitesmoke;
+$color-form: whitesmoke;
+$color-nav: whitesmoke;
+$background-color-nav: black;
+$height-logo-imagen: 200px;
+$padding-nav: 10px 3px;
+body {
+  background-color: $color-body;
+  height: 100%;
+}
+
+h1 {
+  color: $color-titulo;
+}
+
+form {
+  color: $color-form;
+}
+
+.logo-imagen {
+  height: 200px;
+  animation: logo_efecto 5s ease-in-out 0s infinite normal forwards;
+}
+
+.nav-enlace {
+  display: inline-block;
+  background: black;
+  color: whitesmoke;
+  padding: $padding-nav;
+  text-decoration: none;
+}
+
+
+.nav-enlace {
+  background:
+    linear-gradient(to right,
+      rgb(61, 62, 105),
+      rgb(32, 87, 189)),
+    linear-gradient(to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1));
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.nav-enlace:hover {
+  background-size: 0 3px, 100% 3px;
+}
+
+
+@keyframes logo_efecto {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0.2;
+    transform: translateX(500px);
+  }
+
+  24% {
+    opacity: 0.3;
+  }
+
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateX(-500px);
+    opacity: 0.5;
+  }
+
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateX(13px);
+    opacity: 0.7;
+  }
+
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateX(-6.5px);
+    opacity: 0.85;
+  }
+
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateX(-4px);
+    opacity: 1;
+  }
+
+  25%,
+  55%,
+  75%,
+  87%,
+  98% {
+    animation-timing-function: ease-out;
+    transform: translateX(0px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .cuadro-diplomas {
+    width: 100%;
+  }
+}
+
+
+
+
+

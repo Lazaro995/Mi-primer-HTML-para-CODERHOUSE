@@ -12,11 +12,15 @@ form {
   height: 200px;
   animation: logo_efecto 5s ease-in-out 0s infinite normal forwards; }
 
+.parrafo {
+  display: block;
+  margin: 0%; }
+
 .nav-enlace {
   display: inline-block;
   background: black;
   color: whitesmoke;
-  padding: 10px 3px;
+  padding: 10px 30px;
   text-decoration: none; }
 
 .nav-enlace {
@@ -28,6 +32,50 @@ form {
 
 .nav-enlace:hover {
   background-size: 0 3px, 100% 3px; }
+
+nav {
+  background-color: black; }
+
+.encabezado {
+  background-color: black;
+  text-align: center; }
+
+#inlineFrameExample {
+  background-color: black;
+  display: block; }
+
+.footer-section {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px 30px;
+  overflow: hidden; }
+
+.diplomas {
+  color: whitesmoke;
+  margin: 0%; }
+
+.cuadro-diplomas {
+  color: whitesmoke;
+  background-color: #0b2d4d;
+  width: 100%;
+  border: 10px solid #26509c; }
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+
+.cuadro-diplomas {
+  background: linear-gradient(to top, #291155, #072370);
+  margin: 0%;
+  color: whitesmoke; }
+
+.diplomas {
+  background: linear-gradient(90deg, #161155, #072449);
+  color: whitesmoke;
+  padding: 0%;
+  border-color: green;
+  border-width: 100px; }
 
 @keyframes logo_efecto {
   0% {
@@ -64,6 +112,25 @@ form {
     opacity: 1;
     transform: translateX(0px); } }
 
+.accordion-body {
+  background-color: #260a88;
+  color: whitesmoke; }
+
 @media only screen and (max-width: 800px) {
   .cuadro-diplomas {
-    width: 100%; } }
+    width: 90%; } }
+
+.b-example-divider {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15); }
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor; }
+
+.footer-enlace {
+  background: linear-gradient(90deg, #161155, #072449);
+  color: whitesmoke;
+  width: 100%; }

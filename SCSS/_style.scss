@@ -1,14 +1,24 @@
+$color-body: black;
+$color-titulo: whitesmoke;
+$color-form: whitesmoke;
+$color-nav: whitesmoke;
+$background-color-nav: black;
+$height-logo-imagen: 200px;
+$padding-nav: 10px 3px;
+$background-color-accordion: rgb(38, 10, 136);
+$color-accordion: whitesmoke;
+
 body {
-  background-color: black;
-  margin: 0%;
+  background-color: $color-body;
+  height: 100%;
 }
 
 h1 {
-  color: whitesmoke;
+  color: $color-titulo;
 }
 
 form {
-  color: whitesmoke;
+  color: $color-form;
 }
 
 .logo-imagen {
@@ -16,6 +26,10 @@ form {
   animation: logo_efecto 5s ease-in-out 0s infinite normal forwards;
 }
 
+.parrafo{
+  display: block;
+  margin: 0%;
+}
 .nav-enlace {
   display: inline-block;
   background: black;
@@ -23,12 +37,6 @@ form {
   padding: 10px 30px;
   text-decoration: none;
 }
-
-.nav-enlace {
-  color: inherit;
-  text-decoration: none;
-}
-
 .nav-enlace {
   background:
     linear-gradient(to right,
@@ -49,7 +57,7 @@ form {
 }
 
 nav {
-  background-color: black
+  background-color: $background-color-nav;
 }
 
 .encabezado {
@@ -59,6 +67,7 @@ nav {
 
 #inlineFrameExample {
   background-color: black;
+  display: block;
 }
 
 .footer-section {
@@ -71,70 +80,34 @@ nav {
 
 .diplomas {
   color: whitesmoke;
+  margin: 0%;
 }
 
 .cuadro-diplomas {
   color: whitesmoke;
   background-color: rgb(11, 45, 77);
-  width: 1000px;
+  width: 100%;
   border: 10px solid rgb(38, 80, 156);
-  padding: 20px;
-  margin: 5px;
 }
 
-.item2 {
-  grid-area: myarea;
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
-
-.grid-container {
-  display: grid;
-  grid-template-areas: ". myarea myarea  . .";
-  grid-gap: 10px;
-  background-color: rgb(7, 7, 94);
-  padding: 10px;
-
-}
-
-.grid-container>div {
-  background-color: rgb(27, 26, 66);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 20px;
-}
-
-.footer-section-1 {
-
-  color: whitesmoke;
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px 30px;
-  overflow: hidden;
-}
-
-.footer-section:hover {
-  background-color: rgb(10, 28, 65);
-}
-
-.footer-section-1:hover {
-  background-color: rgb(10, 28, 65);
-}
-
-[classs*="item-"] {
-  width: 100%;
-}
-
-[class*-"cuadro-diplomas"] {
-  width: 100%;
-}
-
-
 
 .cuadro-diplomas {
-  background: linear-gradient(to top, rgb(41, 17, 85), rgb(7, 35, 112))
+  background: linear-gradient(to top, rgb(41, 17, 85), rgb(7, 35, 112));
+  margin: 0%;
+  color: whitesmoke;
 }
 
 .diplomas {
-  background: linear-gradient(90deg, rgb(22, 17, 85), rgb(7, 36, 73))
+  background: linear-gradient(90deg, rgb(22, 17, 85), rgb(7, 36, 73));
+  color: whitesmoke;
+  padding: 0%;
+  border-color: green;
+  border-width: 100px;
 }
 
 @keyframes logo_efecto {
@@ -188,16 +161,31 @@ nav {
   }
 }
 
+.accordion-body {
+  background-color: $background-color-accordion;
+  color: $color-accordion
+}
+
 @media only screen and (max-width: 800px) {
   .cuadro-diplomas {
     width: 90%;
   }
+}
 
-  .grid-container {
-    display: grid;
-    grid-template-areas: initial;
-    grid-gap: 10px;
-    background-color: rgb(7, 7, 94);
-    padding: 10px;
-  }
+.b-example-divider {
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.footer-enlace {
+  background: linear-gradient(90deg, rgb(22, 17, 85), rgb(7, 36, 73));
+  color: whitesmoke;
+  width: 100%;
 }
