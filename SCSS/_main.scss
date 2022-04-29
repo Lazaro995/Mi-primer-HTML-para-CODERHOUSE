@@ -4,10 +4,12 @@ $color-form: whitesmoke;
 $color-nav: whitesmoke;
 $background-color-nav: black;
 $height-logo-imagen: 200px;
-$padding-nav: 10px 3px;
+$padding-nav: 10px 50px;
 body {
   background-color: $color-body;
   height: 100%;
+  padding: 0%;
+  margin: 0%;
 }
 
 h1 {
@@ -22,7 +24,9 @@ form {
   height: 200px;
   animation: logo_efecto 5s ease-in-out 0s infinite normal forwards;
 }
-
+.encabezado{
+  text-align: center;
+}
 .nav-enlace {
   display: inline-block;
   background: black;
@@ -51,6 +55,9 @@ form {
   background-size: 0 3px, 100% 3px;
 }
 
+.propietarios{
+  text-align: center;
+}
 
 @keyframes logo_efecto {
   0% {
@@ -60,7 +67,7 @@ form {
   }
 
   24% {
-    opacity: 0.3;
+    opacity: 1;
   }
 
   40% {
