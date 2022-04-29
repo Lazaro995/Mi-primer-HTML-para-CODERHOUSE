@@ -8,7 +8,9 @@
     "build-css": "node-sass --include-path scss scss/_main.scss css/propietarios.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "build-css2": "node-sass --include-path scss scss/_style.scss css/index.css",
-    "watch-css2": "nodemon -e scss -x \"npm run build-css2\""
+    "watch-css2": "nodemon -e scss -x \"npm run build-css2\"",
+    "build-css3": "node-sass --include-path scss scss/_equipo.scss css/equipo.css",
+    "watch-css3": "nodemon -e scss -x \"npm run build-css3\""
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,7 @@
   },
   "homepage": "https://github.com/Lazaro995/Mi-primer-HTML-para-CODERHOUSE#readme",
   "devDependencies": {
-    "node-sass": "^7.0.1",
+    "node-sass": "^cmd7.0.1",
     "nodemon": "^2.0.15"
   }
 }
