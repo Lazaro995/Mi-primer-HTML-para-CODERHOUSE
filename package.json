@@ -10,7 +10,9 @@
     "build-css2": "node-sass --include-path scss scss/_style.scss css/index.css",
     "watch-css2": "nodemon -e scss -x \"npm run build-css2\"",
     "build-css3": "node-sass --include-path scss scss/_equipo.scss css/equipo.css",
-    "watch-css3": "nodemon -e scss -x \"npm run build-css3\""
+    "watch-css3": "nodemon -e scss -x \"npm run build-css3\"",
+    "build-css4": "node-sass --include-path scss scss/_modelos.scss css/modelos.css",
+    "watch-css4": "nodemon -e scss -x \"npm run build-css4\""
   },
   "repository": {
     "type": "git",

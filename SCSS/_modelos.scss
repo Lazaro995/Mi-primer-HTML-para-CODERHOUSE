@@ -1,0 +1,62 @@
+@import url(../CSS/propietarios.css);
+
+$color-subtitulo: whitesmoke;
+$body-font: sans-serif;
+body {
+    padding: 20px;
+    font-family: $body-font;
+}
+
+h2 {
+    color: $color-subtitulo
+}
+.footer-section {
+
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 30px;
+    overflow: hidden;
+}
+
+.footer-enlace {
+    background: linear-gradient(90deg, rgb(22, 17, 85), rgb(7, 36, 73));
+    color: whitesmoke;
+    width: 100%;
+}
+
+.animacion-modelos {
+    animation-duration: 3s;
+    text-align: center;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+    color: whitesmoke;
+}
+ 
+
+.div1 {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.div4 {
+    grid-area: 3 / 1 / 5 / 2;
+}
+
+.div5 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.div6 {
+    grid-area: 4 / 2 / 5 / 3;
+}
