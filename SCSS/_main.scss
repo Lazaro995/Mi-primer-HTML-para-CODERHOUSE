@@ -5,6 +5,7 @@ $color-nav: whitesmoke;
 $background-color-nav: black;
 $height-logo-imagen: 200px;
 $padding-nav: 10px 50px;
+
 body {
   background-color: $color-body;
   height: 100%;
@@ -24,9 +25,11 @@ form {
   height: 200px;
   animation: logo_efecto 5s ease-in-out 0s infinite normal forwards;
 }
-.encabezado{
+
+.encabezado {
   text-align: center;
 }
+
 .nav-enlace {
   display: inline-block;
   background: black;
@@ -55,10 +58,80 @@ form {
   background-size: 0 3px, 100% 3px;
 }
 
-.propietarios{
+.propietarios {
   text-align: center;
 }
 
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.servicio-cliente {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.covid19 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.guia {
+  grid-area: 1 / 2 / 2 / 3;
+margin-left: 50px;
+width: 100%;
+}
+
+.contacto {
+  grid-area: 2 / 2 / 3 / 3;
+  margin-left: 50px;
+  width: 100%;
+}
+
+.img1 {
+  width: 100%;
+}
+
+.img2 {
+  width: 100%
+}
+
+.img3 {
+  width: 100%;
+}
+
+.img4 {
+  width: 100%
+}
+
+.hover10 {
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.hover10:hover {
+  -webkit-filter: grayscale(100%) blur(3px);
+  filter: grayscale(100%) blur(3px);
+}
+
+.footer-section {
+
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px 30px;
+  overflow: hidden;
+}
+.footer-enlace {
+  background: linear-gradient(90deg, rgb(22, 17, 85), rgb(7, 36, 73));
+  color: whitesmoke;
+  width: 100%;
+}
 @keyframes logo_efecto {
   0% {
     animation-timing-function: ease-in;
@@ -115,8 +188,3 @@ form {
     width: 100%;
   }
 }
-
-
-
-
-
