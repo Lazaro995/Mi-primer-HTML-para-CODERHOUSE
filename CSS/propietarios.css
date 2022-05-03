@@ -44,7 +44,8 @@ form {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   color: whitesmoke;
-  text-align: center; }
+  text-align: center;
+  width: 200%; }
 
 .servicio-cliente {
   grid-area: 1 / 1 / 2 / 2; }
