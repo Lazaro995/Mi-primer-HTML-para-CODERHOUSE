@@ -3,7 +3,7 @@ body {
   height: 100%; }
 
 h1 {
-  color: whitesmoke;}
+  color: whitesmoke; }
 
 form {
   color: whitesmoke; }
@@ -54,28 +54,37 @@ nav {
   color: whitesmoke;
   margin: 0%; }
 
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+
+.diplomas {
+  grid-area: 1 / 1 / 2 / 2;
+  background: linear-gradient(90deg, #161155, #072449);
+  color: whitesmoke;
+  padding: 0%;
+  border-color: green;
+  border-width: 100px;
+  border: 5px solid #26509c; }
+
 .cuadro-diplomas {
   color: whitesmoke;
   background-color: #0b2d4d;
   width: 100%;
-  border: 10px solid #26509c; }
+  border: 5px solid #26509c;
+  grid-area: 1 / 2 / 2 / 3;
+  background: linear-gradient(to top, #291155, #072370);
+  margin: 0%;
+  color: whitesmoke;
+  padding: 0.2cm; }
 
 .footer-section {
   display: flex;
   flex-direction: column;
   height: 100%; }
-
-.cuadro-diplomas {
-  background: linear-gradient(to top, #291155, #072370);
-  margin: 0%;
-  color: whitesmoke; }
-
-.diplomas {
-  background: linear-gradient(90deg, #161155, #072449);
-  color: whitesmoke;
-  padding: 0%;
-  border-color: green;
-  border-width: 100px; }
 
 @keyframes logo_efecto {
   0% {
