@@ -163,11 +163,6 @@ nav {
         transform: translateX(0px);
     }
 }
-
-@media only screen and (max-width: 800px) {
-    background-size: ;
-}
-
 .animacion-Logo {
     animation-duration: 5s;
     animation-name: animacionLogo;
@@ -212,5 +207,5 @@ nav {
     background-color: black;
     color: whitesmoke;
     text-align: center;
-    animation: animacion-equipo 5s infinite
+    animation: animacion-equipo 5s infinite;
 }

@@ -1,8 +1,12 @@
+@media only screen and (max-width: 800px) {
+  width: 90%; }
+
 body {
   background-color: black;
   height: 100%;
   padding: 0%;
-  margin: 0%; }
+  margin: 0%;
+  font-family: "Times New Roman", Times, serif; }
 
 h1 {
   color: whitesmoke; }

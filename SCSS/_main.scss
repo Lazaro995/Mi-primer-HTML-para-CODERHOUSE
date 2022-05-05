@@ -1,16 +1,11 @@
-$color-body: black;
-$color-titulo: whitesmoke;
-$color-form: whitesmoke;
-$color-nav: whitesmoke;
-$background-color-nav: black;
-$height-logo-imagen: 200px;
-$padding-nav: 10px 50px;
 
+@import "variables";
 body {
   background-color: $color-body;
   height: 100%;
   padding: 0%;
   margin: 0%;
+  font-family: $font-family;
 }
 
 h1 {
