@@ -40,9 +40,13 @@ nav {
   background-color: black;
   text-align: center; }
 
+iframe::-webkit-scrollbar {
+  overflow: hidden; }
+
 #inlineFrameExample {
   background-color: black;
-  display: block; }
+  display: block;
+  overflow: hidden; }
 
 .footer-section {
   color: whitesmoke;
