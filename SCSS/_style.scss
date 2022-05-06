@@ -11,6 +11,7 @@ $color-accordion: whitesmoke;
 body {
   background-color: $color-body;
   height: 100%;
+  font-family: 'Belleza', sans-serif!important;
 }
 
 h1 {
@@ -66,14 +67,17 @@ nav {
   background-color: black;
   text-align: center;
 }
-iframe::-webkit-scrollbar{
+
+iframe::-webkit-scrollbar {
   overflow: hidden;
 }
+
 #inlineFrameExample {
   background-color: black;
   display: block;
-overflow: hidden;
+  overflow: hidden;
 }
+
 .footer-section {
 
   color: whitesmoke;
@@ -122,6 +126,7 @@ overflow: hidden;
   flex-direction: column;
   height: 100%;
 }
+
 @keyframes logo_efecto {
   0% {
     animation-timing-function: ease-in;
@@ -180,7 +185,7 @@ overflow: hidden;
 
 @media only screen and (max-width: 800px) {
   .cuadro-diplomas {
-    width: 90%;
+    width: 100%;
   }
 }
 

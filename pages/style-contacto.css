@@ -1,10 +1,6 @@
-/* Importación de fuentes de google fonts */ 
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
-
-
 body{
   height: 100%; 
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Belleza', sans-serif!important;
   background-color: #181966; 
 }
 
@@ -129,9 +125,3 @@ p{
   outline:0;
   border: 1px solid #1256a3;
 }
-
-
-/* creado por javiniguez.com, Julio 2019 */
-
-
-Resources

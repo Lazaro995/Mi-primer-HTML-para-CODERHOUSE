@@ -1,7 +1,7 @@
 @import url(../CSS/propietarios.css);
 body {
   padding: 20px;
-  font-family: sans-serif; }
+  font-family: "Belleza", sans-serif !important; }
 
 h2 {
   color: whitesmoke; }

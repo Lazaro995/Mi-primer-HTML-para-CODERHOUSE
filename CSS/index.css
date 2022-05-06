@@ -1,6 +1,7 @@
 body {
   background-color: black;
-  height: 100%; }
+  height: 100%;
+  font-family: "Belleza", sans-serif !important; }
 
 h1 {
   color: whitesmoke; }
@@ -131,7 +132,7 @@ iframe::-webkit-scrollbar {
 
 @media only screen and (max-width: 800px) {
   .cuadro-diplomas {
-    width: 90%; } }
+    width: 100%; } }
 
 .footer-enlace {
   background: linear-gradient(90deg, #161155, #072449);
